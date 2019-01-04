@@ -1,0 +1,14 @@
+<svg width="949" height="256" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path fill="#2366d1" d="m110.85125,128l110.85125,64l-110.85125,64l-110.85125,-64l110.85125,-64z" id="svg_1"/>
+  <path fill="#609dff" d="m110.85125,64l110.85125,64l-110.85125,64l-110.85125,-64l110.85125,-64z" id="svg_2"/>
+  <path fill="#a4c7ff" d="m110.85125,0l110.85125,64l-110.85125,64l-110.85125,-64l110.85125,-64z" id="svg_3"/>
+  <text font-style="normal" font-weight="normal" stroke="#000" transform="matrix(7.923679663285581,0,0,6.926874712379757,-4544.716889300043,-812.394742776905) " xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="24" id="svg_4" y="144.5" x="607.068412" stroke-width="0" fill="#000000">ALDEN</text>
+ </g>
+</svg>
