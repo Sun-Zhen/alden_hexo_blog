@@ -15,3 +15,7 @@ hexo new ${article_name}
 ```bash
 hexo generate
 ```
+
+### 编辑文章
+
+图片的大小为1024*438合适些
