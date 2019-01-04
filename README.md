@@ -24,3 +24,6 @@ hexo generate
 hexo new post "" -p statistics/properNouns
 
 hexo new post "贝叶斯分类算法" -p statistics/theory/BayesianClassificationAlgorithm001.md -r
+
+### Markdown添加Latex
+* https://www.cnblogs.com/peaceWang/p/Markdown-tian-jia-Latex-shu-xue-gong-shi.html
