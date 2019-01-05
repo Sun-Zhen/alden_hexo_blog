@@ -11,7 +11,9 @@ thumbnail: /images/thumbnails/SpiderMan/SpiderMan001.jpeg
   * 简称欧式空间
 
 ### 符号表
+
 |符号|意义|
-|:-:|:-:|
+|:--:|:--:|
 |\\(\mathbf{X}\\)|输入空间|
 |\\(\mathbf{Y}\\)|输出空间|
+|\\(\mathbf{R}^n\\)|n维实数向量空间，n维欧式空间|
