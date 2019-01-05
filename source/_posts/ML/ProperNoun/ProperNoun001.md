@@ -9,3 +9,7 @@ thumbnail: /images/thumbnails/SpiderMan/SpiderMan001.jpeg
 
 * 欧几里德空间:
   * 简称欧式空间
+
+### 符号表
+* $$\mathbfX$$  输入空间
+* $$\mathbfY$$  输出空间
