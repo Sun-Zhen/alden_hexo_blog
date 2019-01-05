@@ -11,5 +11,7 @@ thumbnail: /images/thumbnails/SpiderMan/SpiderMan001.jpeg
   * 简称欧式空间
 
 ### 符号表
-* $$\mathbfX$$  输入空间
-* $$\mathbfY$$  输出空间
+|符号|意义|
+|:-:|:-:|
+|\\(\mathbf{X}\\)|输入空间|
+|\\(\mathbf{Y}\\)|输出空间|
