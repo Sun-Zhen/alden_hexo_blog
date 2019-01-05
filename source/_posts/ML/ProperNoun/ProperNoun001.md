@@ -6,3 +6,6 @@ tags: [机器学习,机器学习专有名词]
 categories: [机器学习,专有名词]
 thumbnail: /images/thumbnails/SpiderMan/SpiderMan001.jpeg
 ---
+
+* 欧几里德空间:
+  * 简称欧式空间
