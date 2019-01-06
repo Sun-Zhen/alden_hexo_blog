@@ -41,5 +41,6 @@ hexo new post "贝叶斯分类算法" -p statistics/theory/BayesianClassificatio
 * https://www.cnblogs.com/peaceWang/p/Markdown-tian-jia-Latex-shu-xue-gong-shi.html
 * https://blog.csdn.net/HaleyPKU/article/details/80341932
 * https://blog.csdn.net/u014630987/article/details/70156489
+* https://blog.csdn.net/u010185803/article/details/50865150
 
 换行显示$$内容$$
