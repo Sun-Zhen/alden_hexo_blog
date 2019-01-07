@@ -16,3 +16,10 @@ thumbnail: /images/thumbnails/Tourism/Santorini/Santorini001.jpeg
 * 确定性现象
 * 随机现象
 * 统计规律性
+* 随机试验
+* 样本空间
+* 样本点
+* 基本事件
+* 随机事件
+* 必然事件
+* 不可能事件
