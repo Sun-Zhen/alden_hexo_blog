@@ -11,6 +11,8 @@ categories:
 thumbnail: /images/thumbnails/Tourism/Santorini/Santorini001.jpeg
 
 ---
+概率论的基本概念，专有名词的定义等
+<!-- more -->
 
 ### 定义
 * 确定性现象
