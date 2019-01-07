@@ -24,3 +24,4 @@ thumbnail: /images/thumbnails/Villages/Villages001.jpeg
 ## 注
 * 参考资料1:[语言模型评价指标Perplexity](https://blog.csdn.net/index20001/article/details/78884646)
 * 参考资料2:[困惑度详解（perplexity）](https://segmentfault.com/a/1190000010095479)
+* 参考资料3:[NLP点滴——文本相似度](https://www.cnblogs.com/huilixieqi/p/6493089.html)
