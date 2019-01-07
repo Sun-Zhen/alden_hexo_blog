@@ -31,6 +31,8 @@ thumbnail: /images/thumbnails/SpiderMan/SpiderMan001.jpeg
   * **随机事件A**：样本空间的子集A为随机事件A
   * **不可能事件\\(\phi\\)**：事件里面不包含任何样本点
   * **基本事件**：事件里面只包含一个样本点
+* PPL:衡量语言模型收敛情况
+* normalize:归一化
 
 ### 符号表
 
