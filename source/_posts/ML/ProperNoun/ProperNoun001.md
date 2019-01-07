@@ -33,6 +33,8 @@ thumbnail: /images/thumbnails/SpiderMan/SpiderMan001.jpeg
   * **基本事件**：事件里面只包含一个样本点
 * PPL:衡量语言模型收敛情况
 * normalize:归一化
+* 大数定律:https://blog.csdn.net/qizhuchuanghongdeng/article/details/69214822
+* 泛函
 
 ### 符号表
 
