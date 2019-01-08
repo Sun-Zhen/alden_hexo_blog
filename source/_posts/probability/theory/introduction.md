@@ -52,13 +52,20 @@ thumbnail: /images/thumbnails/Tourism/Santorini/Santorini001.jpeg
 * 概率：设\\(E\\)为随机事件，\\(S\\)是样本空间，对于\\(E\\)的每一个事件\\(A\\)赋予一个实数，记作\\(P(A)\\)，称为事件\\(A\\)的概率，如果集合函数\\(P)\\满足下列条件
   * 非负性：对于每个事件\\(A\\)，有\\(P(A) \geq 0\\)
   * 规范性：对于必然事件\\(S\\)，有\\(P(S) = 1\\)
-  * 可列可加性：设\\(A_1,A_2,\dots\\)是两两互不相容的事件，即对于\\(A_iAj=\emptyset,i \neq j,i,j=1,2,\dots\\)有\\(P(A_1 \bigcup A_2 \bigcup) = P(A_i) + P(A_2) + \dots\\)
+  * 可列可加性：设\\(A_1,A_2,\dots\\)是两两互不相容的事件，即对于\\(A_iA_j=\emptyset,i \neq j,i,j=1,2,\dots\\)有\\(P(A_1 \bigcup A_2 \bigcup) = P(A_i) + P(A_2) + \dots\\)
 * 频率与概率的关系：当\\(n \rightarrow \infty\\)时，频率\\(f_n(A)\\)在一定意义下接近于概率\\(P(A)\\)，基于这一事实，我们可以将概率\\(P(A)\\)用来表征 事件\\(A\\) 在一次试验中发生的可能性大小。
 
 #### 概率的一些重要的性质
 * \\(P(\emptyset) = 0\\)
-* 
-
+* 有限可加性$$P(A_1 \bigcup A_2 \bigcup \dots A_n )=P(A_1) + P(A_2) + \dots + P(A_n)$$
+* 设\\(A,B\\)是两个事件，若\\(A \subset B\\)，则有$$\begin{align} 
+  P(B-A)&=P(B)-P(A) \\\\
+  P(B) & \geq P(A)
+  \end{align} $$
+* 对于任一事件\\(A,P(A) \leq 1\\)
+* 逆事件的概率，对于任一事件\\(A\\)，有$$P(\overline{A})=1-P(A)$$
+* 加法公式，对于任意事件\\(A,B\\)，有$$P(A \bigcup B) = P(A) + P(B) + P(AB)$$
+  * 推广到三个事件\\(A,B,C\\)，则有$$P(A \bigcup B \bigcup C) = P(A)+P(B)+P(C)-P(AB)-P(BC)-P(AC)+P(ABC)$$
 ### 等可能模型(古典概型)
 
 ### 条件概率

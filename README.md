@@ -45,3 +45,12 @@ hexo new post "贝叶斯分类算法" -p statistics/theory/BayesianClassificatio
 
 换行显示$$内容$$
  option + 数字键8 打印英文名字中间的点
+ 
+ 
+## collapsible markdown?
+
+<details>
+<summary>CLICK ME</summary>
+
+**<summary>标签与正文间一定要空一行！！！**
+</details>
