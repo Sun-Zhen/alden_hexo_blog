@@ -25,6 +25,20 @@ thumbnail: /images/thumbnails/Tourism/Santorini/Santorini001.jpeg
 * **逆事件/对立事件**：若\\(A \bigcup B = S 且 A \bigcap B = \emptyset \\)，则称事件A与事件B为互为逆事件，或者对立事件。
   * 每次随机试验来看，要么事件\\(A\\)发生，要么事件\\(B\\)发生
   * 随机事件\\(A\\)的对立事件记作\\(\bar{A}\\)，\\(\bar{A} = S - A \\)
+* 事件运算遵循交换率，结合律，分配率，德摩根律
+  * 交换率：$$ \begin{align} 
+  A \bigcup B = B \bigcup A \\\\
+  A \bigcap B = B \bigcap A 
+  \end{align} $$
+  * 结合律：$$ \begin{align} 
+  A \bigcup (B \bigcup C) = (A \bigcup B) \bigcup C \\\\
+  A \bigcap (B \bigcap C) = (A \bigcap B) \bigcap C
+  \end{align} $$
+  * 分配率：$$ \\begin{align} 
+  A \bigcup (B \bigcap C) = (A \bigcup B) \bigcap (A \bigcup C) \\\\
+  A \bigcap (B \bigcup C) = (A \bigcap B) \bigcup (A \bigcap C)
+  \end{align} $$
+  * 德摩根律：
 
 ### 频率与概率
 
