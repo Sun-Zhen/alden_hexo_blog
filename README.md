@@ -44,3 +44,4 @@ hexo new post "贝叶斯分类算法" -p statistics/theory/BayesianClassificatio
 * https://blog.csdn.net/u010185803/article/details/50865150
 
 换行显示$$内容$$
+ option + 数字键8 打印英文名字中间的点
