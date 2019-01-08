@@ -66,7 +66,11 @@ thumbnail: /images/thumbnails/Tourism/Santorini/Santorini001.jpeg
 * 逆事件的概率，对于任一事件\\(A\\)，有$$P(\overline{A})=1-P(A)$$
 * 加法公式，对于任意事件\\(A,B\\)，有$$P(A \bigcup B) = P(A) + P(B) + P(AB)$$
   * 推广到三个事件\\(A,B,C\\)，则有$$P(A \bigcup B \bigcup C) = P(A)+P(B)+P(C)-P(AB)-P(BC)-P(AC)+P(ABC)$$
-### 等可能模型(古典概型)
+
+### 等可能概型(古典概型)
+> 随机试验的样本空间具有有限个样本点，每个基本事件发生的可能性相同，这类随机试验称为等可能模型(古典概型)
+
+* 等可能概型中，随机事件\\(A\\)的概率计算为$$P(A)=\sum_{j=1}^{k}P(\\{e_{ij}\\})=\frac{k}{n}=\frac{A包含的基本事件数}{S中包含的基本事件数}$$
 
 ### 条件概率
 
