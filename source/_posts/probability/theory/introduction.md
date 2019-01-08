@@ -38,7 +38,7 @@ thumbnail: /images/thumbnails/Tourism/Santorini/Santorini001.jpeg
   A \bigcup (B \bigcap C) = (A \bigcup B) \bigcap (A \bigcup C) \\\\
   A \bigcap (B \bigcup C) = (A \bigcap B) \bigcup (A \bigcap C)
   \end{align} $$
-  * 德摩根律：$$ \begin{align} 
+  * 德•摩根定律：$$ \begin{align} 
   \overline{A \bigcup B} = \overline{A} \bigcap \overline{B} \\\\
   \overline{A \bigcap B} = \overline{A} \bigcap \overline{B}
   \end{align} $$
