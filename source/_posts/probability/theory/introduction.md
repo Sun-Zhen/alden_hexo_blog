@@ -34,11 +34,14 @@ thumbnail: /images/thumbnails/Tourism/Santorini/Santorini001.jpeg
   A \bigcup (B \bigcup C) = (A \bigcup B) \bigcup C \\\\
   A \bigcap (B \bigcap C) = (A \bigcap B) \bigcap C
   \end{align} $$
-  * 分配率：$$ \\begin{align} 
+  * 分配率：$$ \begin{align} 
   A \bigcup (B \bigcap C) = (A \bigcup B) \bigcap (A \bigcup C) \\\\
   A \bigcap (B \bigcup C) = (A \bigcap B) \bigcup (A \bigcap C)
   \end{align} $$
-  * 德摩根律：
+  * 德摩根律：$$ \begin{align} 
+  \overline{A \bigcup B} = \overline{A} \bigcap \overline{B} \\\\
+  \overline{A \bigcap B} = \overline{A} \bigcap \overline{B}
+  \end{align} $$
 
 ### 频率与概率
 
