@@ -12,5 +12,7 @@ categories:
 thumbnail: /images/thumbnails/Movie/LePetitPrince/LePetitPrince001.jpg
 
 ---
-温习一下排列组合的相关知识点
+温习一下排列组合的相关知识点。排列问题考虑顺序，组合问题不考虑顺序。
 <!-- more -->
+
+
