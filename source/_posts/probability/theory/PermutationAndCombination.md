@@ -12,7 +12,7 @@ categories:
 thumbnail: /images/thumbnails/Movie/LePetitPrince/LePetitPrince001.jpg
 
 ---
-温习一下排列组合的相关知识点。**排列问题考虑顺序**，**组合问题不考虑顺序**。
+温习一下古典概型里面排列组合的相关知识点。**排列问题考虑顺序**，**组合问题不考虑顺序**。
 <!-- more -->
 
 ### 排列问题与组合问题的区分
@@ -36,13 +36,12 @@ thumbnail: /images/thumbnails/Movie/LePetitPrince/LePetitPrince001.jpg
 * 第一次有\\(n\\)种选择，第二次有\\(n*(n-1)\\)种选择，\\(\dots\\)，第\\(r\\)次有\\(\frac{n!}{(n-r)!}\\)种选择。
 
 #### 组合可重复问题(目标是转化为组合不可重复问题，然后解决)
-* \\( \frac{(r+n-1)!}{r!*(r+n-1-r)!} = \frac{(r+n-1)!}{r!*(n-1)!} \\)
+* \\( \frac{(r+n-1)!}{r!\times(r+n-1-r)!} = \frac{(r+n-1)!}{r!\times(n-1)!} \\)
 * 按照[参考博文1](https://blog.csdn.net/zeo_m/article/details/80505404)，的演示，让我想起了高中时期的每个选项之前差一个竖线？？？待回忆回忆
 
 #### 组合不可重复问题
-* \\(\frac{n!}{(n-r)!}*\frac{1}{r!} \\)
+* \\(\frac{n!}{(n-r)!}\times\frac{1}{r!} \\)
 * 不可重复提现在上面公式中，前面的部分
 
-
 ### 注：
-* [参考博文1](https://blog.csdn.net/zeo_m/article/details/80505404)
+* 参考博文1：[排列组合详解](https://blog.csdn.net/zeo_m/article/details/80505404)
