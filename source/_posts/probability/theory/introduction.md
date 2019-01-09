@@ -79,6 +79,13 @@ thumbnail: /images/thumbnails/Tourism/Santorini/Santorini001.jpeg
 * **实际推断原理**：**概率很小的事件在一次试验中实际上几乎是不发生的**
 
 ### 条件概率
+> \\(P(B|A)=\frac{P(AB)}{P(A)}\\)
+
+* 条件概率也是概率，同样满足概率的以下三个条件
+  * 非负性：对于每一事件\\(B\\)，有\\(P(B|A)\geq0\\)
+  * 规范性：对于必然事件\\(S\\)，有\\(P(S|A)=1\\)
+  * 可列可加性：设\\(B_1,B_2,\cdots,\\)是两两互不相容事件，则有$$P( \mathop{\bigcup}_{i=1}^{\infty} B_i|A) = \sum_{i=1}^{\infty}P(B_i|A) $$
+* 由$$P(A \bigcup B) = P(A) + P(B) + P(AB)$$可以推算出$$P(B_1 \bigcup B_2|A) = P(B_1|A) + P(B_2|A) - P(B_1B_2|A)$$
 
 ### 独立性
 
@@ -96,6 +103,7 @@ thumbnail: /images/thumbnails/Tourism/Santorini/Santorini001.jpeg
 * 随机事件：样本空间\\(S\\)的子集为随机事件，每次随机试验中，当且仅当这一子集中的一个样本点出现时，我们称为这一**事件发生**
 * 必然事件：样本空间\\(S\\)本身称为**必然事件**
 * 不可能事件：空集\\(\emptyset\\)不包含任何样本点，每次随机试验必不会发生，所以\\(\emptyset\\)称为**不可能事件**
+* 条件概率：条件概率考虑的是事件\\(A\\)已经发生的条件下，事件\\(B\\)发生的概率。
 
 ### 注:
 * 参考资料1:[超几何分布-百度百科](https://baike.baidu.com/item/%E8%B6%85%E5%87%A0%E4%BD%95%E5%88%86%E5%B8%83/4782968?fr=aladdin)
