@@ -64,8 +64,9 @@ thumbnail: /images/thumbnails/Tourism/Santorini/Santorini001.jpeg
   \end{align} $$
 * 对于任一事件\\(A,P(A) \leq 1\\)
 * 逆事件的概率，对于任一事件\\(A\\)，有$$P(\overline{A})=1-P(A)$$
-* 加法公式，对于任意事件\\(A,B\\)，有$$P(A \bigcup B) = P(A) + P(B) + P(AB)$$
+* 加法公式，对于任意事件\\(A,B\\)，有$$P(A \bigcup B) = P(A) + P(B) - P(AB)$$
   * 推广到三个事件\\(A,B,C\\)，则有$$P(A \bigcup B \bigcup C) = P(A)+P(B)+P(C)-P(AB)-P(BC)-P(AC)+P(ABC)$$
+
 
 ### 等可能概型(古典概型)
 > 随机试验的样本空间具有有限个样本点，每个基本事件发生的可能性相同，这类随机试验称为等可能模型(古典概型)
@@ -86,8 +87,39 @@ thumbnail: /images/thumbnails/Tourism/Santorini/Santorini001.jpeg
   * 规范性：对于必然事件\\(S\\)，有\\(P(S|A)=1\\)
   * 可列可加性：设\\(B_1,B_2,\cdots,\\)是两两互不相容事件，则有$$P( \mathop{\bigcup}_{i=1}^{\infty} B_i|A) = \sum_{i=1}^{\infty}P(B_i|A) $$
 * 由$$P(A \bigcup B) = P(A) + P(B) + P(AB)$$可以推算出$$P(B_1 \bigcup B_2|A) = P(B_1|A) + P(B_2|A) - P(B_1B_2|A)$$
+* 乘法定理
+  * \\(P(AB)=P(B|A)P(A)\\)
+  * \\(P(ABC)=P(C|AB)P(B|A)P(A)\\)
+  * \\(P(A_1A_2 \cdots A_n) = P(A_n|A_1A_2 \cdots A_{n-1}) P(A_{n-1}|A_1A_2 \cdots A_{n-2}) \cdots P(A_2|A_1) P(A_1)\\)
+* **划分**
+  * 定义：设\\(S\\)为随机试验\\(E\\)的样本空间，\\(B_1，B_2，\cdots，B_n\\)为\\(E\\)的一组事件，如果$$
+  B_i B_j = \emptyset，i \neq j，i，j=1，2，\cdots，n \\\\
+  B_1 \bigcup B_2 \bigcup \dots \bigcup B_n = S
+  $$则称\\(B_1，B_2，\cdots，B_n\\)为样本空间\\(S\\)的一个**划分**。
+  * 定律：
+    - 如果\\(B_1 \bigcup B_2 \bigcup \dots \bigcup B_n \\)是样本空间的一个划分，则每次试验，事件\\(B_1 \bigcup B_2 \bigcup \dots \bigcup B_n \\)中必有1个且仅有一个发生。
+* 全概率定理
+  * 定义：设试验\\(E\\)的样本空间为\\(S\\)，\\(A\\)为\\(E\\)的事件，\\(B_1，B_2，\cdots，B_n\\)为\\(S\\)的一个划分，则$$P(A)=P(A|B_1)P(B_1)+P(A|B_2)P(B_2)+\cdots+P(A|B_n)P(B_n)$$
+  * 当\\(n=2\\)时，$$P(A)=P(A|B)P(B)+P(A|\overline{B})P(\overline{B})$$
+* 贝叶斯定理
+  * 定义：设试验\\(E\\)的样本空间为\\(S\\)，\\(A\\)为\\(E\\)的事件，\\(B_1，B_2，\cdots，B_n\\)为\\(S\\)的一个划分，且\\(P(A)\gt0，P(B_i)\gt0(i=1，2，\cdots，n)\\)，则$$ P(B_i|A) = \frac{ P(A|B_i)P(B_i) }{ \sum_{j=0}^{n}P(A|B_j)P(B_j) }，j=(1，2，\cdots，n) $$
+  * 当\\(n=2\\)时，$$P(B|A)=\frac{P(AB)}{P(A)}=\frac{P(A|B)P(B)}{P(A|B)P(B)+P(A|\overline{B})P(\overline{B})}$$
+* 先验概率：基于以往的数据直接得到的叫做先验概率为**先验概率**
+* 后验概率：在得到信息之后，再加以重新修正的概率为**后验概率**
 
 ### 独立性
+> 如果\\(A，B\\)是两事件，如果\\(P(AB) = P(A)P(B)\\)，则称事件\\(P(AB)\\)相互独立，简称\\(A，B\\)独立
+
+* 定理1：设\\(A，B\\)是两事件，且\\(P(A)\gt0\\)，若\\(A，B\\)相互独立，则\\(P(B|A)=P(B)\\)，反之亦然
+* 定理2：若事件\\(A，B\\)相互独立，则下列各对事件也是相互独立的$$A与\overline{B},\overline{A}与B,\overline{A}与\overline{B}$$
+* 推广到三个事件\\(A，B，C\\)
+  * 定义：设\\(A，B，C\\)为三个事件，如果满足公式$$ \left. \begin{align}
+  & P(AB)=P(A)P(B) \\\\
+  & P(BC)=P(B)P(C) \\\\
+  & P(AC)=P(A)P(C) \\\\
+  & P(ABC)=P(A)P(B)P(C) \\\\
+  \end{align} \right\\\} $$则称事件\\(A，B，C\\)**相互独立**
+* 设\\(A_1，A_2，\cdots，A_n\\)是\\(n(n\geq2)\\)个事件，如果对其中任意2个，任意3个，\\(\cdots\\)，任意\\(n\\)个事件的积事件都等于各事件概率之积，则称\\(A_1，A_2，\cdots，A_n\\)**相互独立**
 
 ### 定义
 * 确定性现象：一定条件下一定会发生的现象，比如向上抛石子必然会下落
