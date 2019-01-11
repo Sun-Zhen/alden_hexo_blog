@@ -57,3 +57,5 @@ hexo new post "贝叶斯分类算法" -p statistics/theory/BayesianClassificatio
 
 
 N-Gram 整个句子出现的概率就等于各个词出现的概率乘积
+
+https://seeing-theory.brown.edu/cn.html
