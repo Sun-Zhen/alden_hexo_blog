@@ -54,3 +54,6 @@ hexo new post "贝叶斯分类算法" -p statistics/theory/BayesianClassificatio
 
 **<summary>标签与正文间一定要空一行！！！**
 </details>
+
+
+N-Gram 整个句子出现的概率就等于各个词出现的概率乘积
